@@ -73,16 +73,19 @@
     color: wheat;
 }
 
-/*Windows*/
-.windows {
+#windows {
     width: 100%;
-    max-height: 100vh; 
-    overflow: hidden; 
-    background: url("../img/fondo.jpg") no-repeat;
+    max-height: 100vh;
+    overflow: hidden;
+    background: url("./img/fondo.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
+    transition: background-image 3s ease-out; /* Agregar una transición a background-image */
 }
+
+
+
 .navegar {
     background: rgba(0, 0, 0, 0.575);
     width: 4%;
@@ -90,6 +93,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden; 
 }
 .icono {
     width: 100%;
@@ -100,6 +104,7 @@
     justify-content: center;
     color: white;
     font-size: 13px;
+    overflow: hidden; 
 }
 .icono:hover {
     background:rgba(255, 255, 255, 0.151);

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .windows {
+            width: 100%;
+            height: 100vh; 
+            overflow: hidden; 
+            background: url("fondo.jpg") no-repeat;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="windows" id="background-container">
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const backgroundContainer = document.getElementById("background-container");
+            const backgrounds = ["fondo.jpg", "fondo1.jpg", "fondo2.jpg", "fondo3.jpg"];
+            let currentBackgroundIndex = 0;
+
+            function changeBackground() {
+                backgroundContainer.style.backgroundImage = `url("${backgrounds[currentBackgroundIndex]}")`;
+
+                currentBackgroundIndex++;
+                if (currentBackgroundIndex >= backgrounds.length) {
+                    currentBackgroundIndex = 0;
+                }
+            }
+
+            changeBackground(); // Cambia el fondo inicial
+            setInterval(changeBackground, 3000); // Cambia el fondo cada 3 segundos
+        });
+    </script>
+</body>
+</html>
