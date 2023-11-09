@@ -3,7 +3,7 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     document.querySelector(".contenedor").style.display = "none";
     showNewScreen();
-  }, 1000); // Esperar 5 segundos antes de mostrar la nueva pantalla
+  }, 5000); // Esperar 5 segundos antes de mostrar la nueva pantalla
 });
 
 
