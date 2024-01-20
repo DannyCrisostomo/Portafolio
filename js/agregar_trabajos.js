@@ -74,6 +74,11 @@ const datos_musica = [
         imagen: "./icon/trabajos/Blog.png",
         nombre:"Blog",
     },
+    {
+        link: "https://meek-melba-a34c38.netlify.app/",
+        imagen: "./icon/trabajos/Pixabay.png",
+        nombre:"Pixabay",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
