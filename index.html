@@ -4,20 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Windows Loading Effect</title>
-    <link rel="icon" href="icon/DC.jpg" sizes="32x32" />
+    <title>Danny Crisostomo</title>
+    <link rel="icon" href="icon/icono/DC.jpg" sizes="32x32" />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <div class="contenedor">
         <div class="loader"></div>
         <div class="Loading">
-            <h1>Loading</h1>
+            <h1 class="text">Loading</h1>
             <h5 class="puntos"></h5>
         </div>
     </div>
+
+    <div class="contenedor_windows">
+    <div id="windows" >
+        <div class="navegar">
+            <div class="superior">
+                <div  class="icono">
+                    <a class="link" href="youtuve.com">
+                        <img class="link-icono" src="./icon/barraTareas/ventanas.png" alt="">
+                    </a>
+                </div>
+                <div class="icono">
+                    <a class="link" href="youtuve.com">
+                        <img class="link-icono" src="./icon/barraTareas/lupa.png" alt="">
+                    </a>
+                </div>
+                <div class="icono">
+                    <a class="link" href="https://github.com/DannyCrisostomo">
+                        <img class="link-icono" src="./icon/barraTareas/github.png" alt="">
+                    </a>
+                </div>
+                <div class="icono">
+                    <a class="link" href="https://www.youtube.com/">
+                        <img class="link-icono" src="./icon/barraTareas/youtuve.png" alt="">
+                    </a>
+                </div>
+                <div class="icono">
+                    <a class="link"
+                        href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwivzpOp242CAxWpqpUCHYNuAssQPAgJ">
+                        <img class="link-icono" src="./icon/barraTareas/chrome.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="inferior">
+    
+                <div class="icono">
+                    <div class="funciones sonido">
+                        <img class="link-icono" src="./icon/barraTareas/grabar.png" alt="">
+                        <img class="link-icono" src="./icon/barraTareas/internet.png" alt="">
+                        <img class="link-icono" src="./icon/barraTareas/sonido.png" alt="">
+                    </div> 
+                </div>
+                <div class="icono">
+                    <a class="link lenguaje" href="#">
+                        <h5>ESP</h5>
+                    </a>
+                </div>
+    
+                <div class="icono fecha">
+                    <div id="hora"></div>
+                    <div id="dia"></div>
+                    <div id="fecha"></div>
+                </div>
+    
+                 <div class="icono">
+                    <a class="link" href="#">
+                        <img class="link-icono" src="./icon/barraTareas/notificacion.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="escritorio">
+            <div class="contenedor-app app-columnas" id="agregar_trabajos">
+                <!--Agregar los trabajos mediante JS-->
+            </div>
+        </div>
+    </div>
+    </div>
     <script src="js/script.js"></script>
+    <script src="js/agregar_trabajos.js"></script>
 </body>
 </html>
 
