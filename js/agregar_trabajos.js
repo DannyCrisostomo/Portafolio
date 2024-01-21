@@ -79,6 +79,11 @@ const datos_musica = [
         imagen: "./icon/trabajos/Pixabay.png",
         nombre:"Pixabay",
     },
+    {
+        link: "https://chimerical-faun-8df636.netlify.app/",
+        imagen: "./icon/trabajos/pokeapi.png",
+        nombre:"PokeAPI",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
