@@ -1,4 +1,4 @@
-const datos_musica = [
+const datos_trabajos= [
     {
         link: "https://www.linkedin.com/in/danny-crisostomo/",
         imagen: "./icon/trabajos/linkedin.png",
@@ -84,10 +84,15 @@ const datos_musica = [
         imagen: "./icon/trabajos/pokeapi.png",
         nombre:"PokeAPI",
     },
+    {
+        link: "https://nextmoviedvcc.000webhostapp.com/",
+        imagen: "./icon/trabajos/nextmovie.png",
+        nombre:"NextMovie",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
-for (let index of datos_musica) {
+for (let index of datos_trabajos) {
     insertar_datos.innerHTML += `
     
     <div class="apk">
