@@ -86,7 +86,7 @@ const datos_trabajos= [
     },
     {
         link: "https://nextmoviedvcc.000webhostapp.com/",
-        imagen: "./icon/trabajos/nextmovie.png",
+        imagen: "https://github.com/DannyCrisostomo/NextMovie/blob/262c3615b1bc6c5c312447b073219f7c61f9bbd1/assets/img/source/logo.png",
         nombre:"NextMovie",
     },
 ];
