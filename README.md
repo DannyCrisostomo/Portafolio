@@ -4,11 +4,10 @@
 
 ## Capturas de pantalla 📸
 
-![Inicio](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_1.png)
+![Inicio](https://github.com/DannyCrisostomo/Portafolio/blob/1c55530445e0bbd908e99c446684a596570221c2/Portafolio/Screenshot_1.png )
 
-![Proyectos](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_2.png)
+![Proyectos](https://github.com/DannyCrisostomo/Portafolio/blob/1c55530445e0bbd908e99c446684a596570221c2/Portafolio/Screenshot_2.png)
 
-![Sobre mí](https://github.com/DannyCrisostomo/NextMovie/blob/dabc563ef035845501513a3d67c0316cf50054fa/NextMovie/Screenshot_3.png)
 
 ## Secciones principales 📁
 
