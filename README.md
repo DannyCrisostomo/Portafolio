@@ -1,7 +1,3 @@
-¡Claro! Aquí tienes el README completo para tu proyecto con diseño de Windows-like:
-
----
-
 # Portafolio Windows-like 🖥️
 
 ¡Bienvenido a mi portafolio con diseño inspirado en Windows! Este proyecto recrea la apariencia del sistema operativo Windows, pero en lugar de aplicaciones o archivos .exe, encontrarás enlaces que te llevarán a diferentes secciones de mi portafolio en línea. ¡Espero que disfrutes navegando por él!
