@@ -89,6 +89,11 @@ const datos_trabajos= [
         imagen: "./icon/trabajos/NextMovie.png",
         nombre:"NextMovie",
     },
+    {
+        link: "https://inquisitive-pony-28778a.netlify.app/",
+        imagen: "./icon/trabajos/PictureReel.png",
+        nombre:"PictureReel",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
