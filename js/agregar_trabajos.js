@@ -101,7 +101,7 @@ for (let index of datos_trabajos) {
     insertar_datos.innerHTML += `
     
     <div class="apk">
-        <a class="link" href="${index.link}"">
+        <a class="link" target="_blank" href="${index.link}"">
             <img class="icono-esc" src="${index.imagen}" alt="">${index.nombre}
         </a>
     </div>
