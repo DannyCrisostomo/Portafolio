@@ -2,7 +2,10 @@
 
 ¡Bienvenido a mi portafolio con diseño inspirado en Windows! Este proyecto recrea la apariencia del sistema operativo Windows, pero en lugar de aplicaciones o archivos .exe, encontrarás enlaces que te llevarán a diferentes secciones de mi portafolio en línea. ¡Espero que disfrutes navegando por él!
 
-## Capturas de pantalla 📸
+## Redirección a la página 🔗
+
+Para acceder a mi Portafolio de trabajos, visita [Portafolio](https://harmonious-hummingbird-82d8cb.netlify.app/).
+
 
 ![Inicio](https://github.com/DannyCrisostomo/Portafolio/blob/1c55530445e0bbd908e99c446684a596570221c2/Portafolio/Screenshot_1.png )
 
