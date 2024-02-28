@@ -94,6 +94,11 @@ const datos_trabajos= [
         imagen: "./icon/trabajos/PictureReel.png",
         nombre:"PictureReel",
     },
+    {
+        link: "https://monumental-mooncake-e6c124.netlify.app/",
+        imagen: "./icon/trabajos/StudioGhibli.png",
+        nombre:"StudioGhibli",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
