@@ -99,6 +99,11 @@ const datos_trabajos= [
         imagen: "./icon/trabajos/StudioGhibli.png",
         nombre:"StudioGhibli",
     },
+    {
+        link: "https://prismatic-meringue-51ab1e.netlify.app/#",
+        imagen: "./icon/trabajos/Musica.png",
+        nombre:"Musica",
+    },
 ];
 
 const insertar_datos = document.getElementById("agregar_trabajos");
