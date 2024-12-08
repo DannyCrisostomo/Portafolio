@@ -101,7 +101,7 @@ const datos_trabajos= [
     },
     {
         link: "https://prismatic-meringue-51ab1e.netlify.app/#",
-        imagen: "./icon/trabajos/Musica.png",
+        imagen: "./icon/trabajos/musica.png",
         nombre:"Musica",
     },
 ];
